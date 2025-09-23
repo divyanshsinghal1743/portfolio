@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Divyansh Singhal — Student Portfolio</title>
+  <meta name="description" content="Portfolio of Divyansh Singhal — Computer Science student, aspiring Data Scientist with interests in Machine Learning and AI." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Divyansh Singhal</a>
+      <nav class="nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Future Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero container" id="home">
+    <div class="hero-inner">
+      <div>
+        <h1>Hello, I’m <span class="highlight">Divyansh</span></h1>
+        <p class="lead">Computer Science student aspiring to be a <strong>Data Scientist</strong>. Passionate about <strong>Machine Learning</strong>, <strong>Artificial Intelligence</strong>, and exploring how data powers code.</p>
+        <p><a class="cta-btn" href="#projects">See my goals</a></p>
+      </div>
+      <aside class="hero-photo">
+        <!-- Updated photo path -->
+        <img src="divyansh.jpg" alt="Portrait of Divyansh Singhal">
+      </aside>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about container">
+    <h2>About Me</h2>
+    <p>I am a <strong>Computer Science student</strong> eager to build my career in <strong>Data Science</strong>. My interests include <strong>machine learning, AI</strong>, and finding ways to use data effectively in programming. This portfolio highlights my journey, interests, and the projects I aim to build.</p>
+  </section>
+
+  <!-- FUTURE PROJECTS -->
+  <section id="projects" class="projects container">
+    <h2>Future Projects</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>AI Chatbot</h3>
+        <p class="muted">A chatbot powered by natural language processing and machine learning, capable of understanding and answering user queries.</p>
+        <p><strong>Tech Goals:</strong> Python · NLP · ML</p>
+      </article>
+      <article class="card">
+        <h3>Data Visualization Dashboard</h3>
+        <p class="muted">An interactive dashboard to visualize datasets and uncover insights through charts and analytics.</p>
+        <p><strong>Tech Goals:</strong> Python · Pandas · Matplotlib · Plotly</p>
+      </article>
+      <article class="card">
+        <h3>Predictive Model</h3>
+        <p class="muted">A machine learning model that predicts outcomes (like stock trends or student performance) using historical data.</p>
+        <p><strong>Tech Goals:</strong> Python · Scikit-learn · Data Science</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills container">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span class="skill">HTML</span>
+      <span class="skill">Figma</span>
+      <span class="skill">LabEx</span>
+      <span class="skill">Machine Learning (learning)</span>
+      <span class="skill">AI Concepts (learning)</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact container">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:divyanshsinghal0209@gmail.com">divyanshsinghal0209@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/divyansh-singhal-588539384" target="_blank">linkedin.com/in/divyansh-singhal</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="container footer">
+    <p class="muted">© <span id="year"></span> Divyansh Singhal — Portfolio</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
